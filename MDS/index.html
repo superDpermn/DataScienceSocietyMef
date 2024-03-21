@@ -12,20 +12,22 @@
       href="https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Protest+Riot&family=Miriam+Libre:wght@700&display=swap"
       rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="/css/homeStyle.css" />
+    <link rel="stylesheet" href="css/commonStyles.css" />
+    <link rel="stylesheet" href="css/homeStyle.css" />
   </head>
   <body>
     <header>
       <div id="logo">
-        <img src="/images/logo.png" />
+        <a href="#">
+          <img src="images/logo.png" />
+        </a>
       </div>
       <div id="Title"><h1>MEF Data Science Society</h1></div>
       <nav>
         <div id="placeholder"></div>
         <!--placeholder div element-->
         <section>
-          <a href="#"
+          <a href="html/blog.html"
             ><div class="navLink"><span>BLOG</span></div></a
           >
         </section>
@@ -35,7 +37,7 @@
           >
         </section>
         <section>
-          <a href="#"
+          <a href="html/contact.html"
             ><div class="navLink"><span>İLETİŞİM</span></div></a
           >
         </section>
@@ -59,14 +61,81 @@
         </section>
         <section id="bannerImage"></section>
       </div>
+
       <div class="decoLine"></div>
-      <h2 id="TeamTitle">Yönetim Kurulu</h2>
+      <h2 class="sectionTitle">Biz Kimiz?</h2>
+
+      <div id="About">
+        <p>
+          Kulüp açıklaması Lorem ipsum dolor sit amet consectetur, adipisicing
+          elit. Distinctio labore porro magni, placeat vel debitis sunt at
+          aliquam perferendis eum! Eum, quasi tenetur. Esse, vel rem accusamus
+          atque beatae velit.
+        </p>
+        <p>
+          Kulüp açıklaması Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Voluptatibus esse dolores voluptas aliquam magni explicabo sequi
+          fuga nesciunt voluptatem sapiente? Eum voluptatum ratione animi nulla
+          deserunt illo atque harum sunt.
+        </p>
+      </div>
+
+      <div class="decoLine"></div>
+      <h2 class="sectionTitle">Yönetim Kurulu</h2>
+
       <div id="teamBG"></div>
       <div id="teamContainer"></div>
+
       <div class="decoLine"></div>
+      <h2 class="sectionTitle">Galeri</h2>
+      <div id="galleryContainer">
+        <section id="gallery">
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+          <img src="images/Logo-full.jpg" />
+        </section>
+      </div>
+
+      <div class="decoLine"></div>
+      <h2 class="sectionTitle">Bize Ulaşın</h2>
+      <div id="LocationInfo">
+        <div>
+          <img src="images/mail.png" />
+          <p>Email:example@gmail.com</p>
+          <img src="images/mail.png" />
+        </div>
+        <div>
+          <img src="images/pin.png" />
+          <p>
+            Lokasyon: Huzur Mh., Maslak Ayazağa Cd. No:4, 34396 Sarıyer/İstanbul
+          </p>
+          <img src="images/pin.png" />
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12024.70448362262!2d29.0085964!3d41.1088445!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5cfa9c562b1%3A0xd94f6327566e85d6!2sMEF%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1710961033851!5m2!1str!2str"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </main>
 
     <footer>
+      <div class="decoLine"></div>
+      <h2 class="sectionTitle">Bizi Takip Edin!</h2>
+
       <section id="socials">
         <a href="#"
           ><!--URL to instagram-->
@@ -126,6 +195,6 @@
       </section>
     </footer>
 
-    <script src="/js/homeScript.js"></script>
+    <script src="js/homeScript.js"></script>
   </body>
 </html>
