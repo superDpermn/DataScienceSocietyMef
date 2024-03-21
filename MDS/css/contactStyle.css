@@ -1,0 +1,33 @@
+#LocationInfo {
+  padding: 10px;
+  display: grid;
+  grid-template-rows: min-content min-content auto;
+  gap: 20px;
+}
+
+#LocationInfo img {
+  height: 32px;
+}
+
+#LocationInfo p {
+  margin: 0px;
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#LocationInfo div {
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: min-content auto min-content;
+  gap: 40px;
+}
+
+#LocationInfo iframe {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
